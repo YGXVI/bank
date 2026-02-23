@@ -1,6 +1,6 @@
 package payment
 
-import "bank/bank/pkg/bank/types"
+import "github.com/YGXVI/bank/v2/pkg/types"
 
 func Max(payments []types.Payment) types.Payment {
 	max := payments[0]

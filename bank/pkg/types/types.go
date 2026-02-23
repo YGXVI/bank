@@ -25,3 +25,11 @@ type Payment struct {
 	ID     int
 	Amount Money
 }
+
+type Status string
+
+const (
+	StatusOK         Status = "OK"
+	StatusFail       Status = "FAIL"
+	StatusInProgress Status = "INPROGRESS"
+)
